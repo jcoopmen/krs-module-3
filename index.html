@@ -381,7 +381,7 @@ textarea:focus{border-color:var(--trust);outline:none;box-shadow:0 0 0 3px rgba(
 /* =====================================================================
    9-8-8 e-learning prototype — MODULE CONTENT
    Key Responder Skills · Module 3: Trauma-Informed and Culturally Humble Practice
-   Source storyboard: KRS_Module_3_Content_v3.docx (8 September 2026, second revision)
+   Source storyboard: KRS_Module_3_Content.docx (14 September 2026)
 
    This file holds content only. All styling and interaction behaviour
    lives in shell.html. Build a deliverable with:
@@ -392,7 +392,7 @@ const META = {
   course:      'Key Responder Skills',
   moduleLabel: 'Module 3',
   title:       'Trauma-Informed and Culturally Humble Practice',
-  time:        '30 minutes'
+  time:        '45-60 minutes'
 };
 
 /* Completion copy is assembled from the storyboard's overview and handoff
@@ -450,14 +450,14 @@ const SCREENS = [
   ]}},
   {p:`These experiences can affect what feels safe, how readily a person trusts a given service, and what they feel comfortable sharing. At the same time, your own experiences and assumptions can also influence how you interpret what you hear on the lines.`},
   {p:`In this module, you will explore how trauma-informed practice, cultural humility, and awareness of bias can help you respond with greater safety, curiosity, and respect for the person's experience. As you continue through this course, you will apply this lens to the specific listening techniques and communication skills you will develop in later modules.`},
-  {note:`Estimated completion time: 30 minutes`}
+  {note:`Estimated completion time: 45-60 minutes`}
 ]},
 
 {sec:0, type:'prose', title:'Learning objectives', blocks:[
   {p:`By the end of this module, you will be able to:`},
   {cards:{cols:1, num:true, items:[
     {t:`Match trauma-informed principles to conversational behaviours you can use during voice and text interactions`},
-    {t:`Recognize responses that risk re-traumatizing a caller or texter and select alternatives that support safety, transparency, collaboration and empowerment`},
+    {t:`Recognize responses that risk re-traumatizing a caller or texter and select alternatives that support safety, transparency, collaboration, and empowerment`},
     {t:`Explain how cultural humility and ongoing self-reflection support relational safety`},
     {t:`Identify how implicit bias and intersecting forms of discrimination can influence your interpretation of an interaction`},
     {t:`Select responses that recognize racism, discrimination, and other social realities as legitimate sources of distress`},
@@ -870,7 +870,7 @@ const SCREENS = [
     {t:`How serious their distress may be`},
     {t:`What they may need`}
   ]}},
-  {p:`Some of these impressions come from what the person tells you. Others, however, are shaped by your own experiences, expectations and assumptions.`}
+  {p:`Some of these impressions come from what the person tells you. Others, however, are shaped by your own experiences, expectations, and assumptions.`}
 ]},
 
 {sec:7, type:'prose', title:'Implicit bias and reflexivity', blocks:[
@@ -977,7 +977,7 @@ const SCREENS = [
 {sec:10, type:'prose', title:'What you can do', blocks:[
   {p:`You cannot prevent a first impression from forming, but you can be intentional about what happens next. A few consistent practices can help you check your interpretation against what the person is actually telling you:`, lede:true},
   {reveal:{cta:`Reveal the first practice`, more:`Reveal the next`, items:[
-    `Stay grounded in the person's words and experiences as they describe them`,
+    `Stay grounded in the person's words and experiences as they describe them.`,
     `Ask directly about suicide in every interaction. This is a mandatory 9-8-8 practice for every caller and texter, regardless of your first impression.`,
     `Pay attention when an interpretation forms quickly, and take that as a cue to check your assumptions.`,
     `Bring the same care, pacing, permission, and choice to every interaction.`
@@ -987,7 +987,7 @@ const SCREENS = [
 
 /* ---------------- TOPIC 3 ---------------- */
 {sec:11, type:'section', num:'03', kicker:'Topic 3', art:'a',
- title:`Cultural humility and intersectionality`, line:`How ongoing reflection supports cultural safety.`},
+ title:`Cultural humility and intersectionality`, line:`How ongoing reflection supports relational safety.`},
 
 {sec:11, type:'prose', blocks:[
   {p:`In the previous topic, you learned how your implicit bias can shape what you notice and how you interpret an interaction. To build on this reflexive practice, this topic introduces the concept of <strong>cultural humility</strong>.`, lede:true},
@@ -998,7 +998,7 @@ const SCREENS = [
     {q:`Cultural humility`,
      a:`Cultural humility was introduced by Melanie Tervalon and Jann Murray-García in 1998. It describes an ongoing practice of self-reflection, attention to power imbalances, and building respectful partnerships with the people you support.`}
   ]},
-  {p:`In 9-8-8 interactions, cultural humility is part of what you practise as a responder. Cultural safety is what you are working to support, and it is the caller or texter that ultimately determines whether they experience it.`},
+  {p:`In 9-8-8 interactions, cultural humility is part of what you practise as a responder. Cultural safety is what you are working to support, and it is the caller or texter who ultimately determines whether they experience it.`},
   {panel:{cls:'blue', p:`Both concepts contribute to relational safety, the sense of trust and security a person experiences within the interaction.`}}
 ]},
 
@@ -1022,7 +1022,7 @@ const SCREENS = [
   {cards:{cols:3, tight:true, items:[
     {t:`Racism`},{t:`Sexism`},{t:`Ableism`},{t:`Anti-2SLGBTQIA+ discrimination`},{t:`Class-based disadvantages`}
   ]}},
-  {p:`As a 9-8-8 responder, this means that callers' and texters' experiences of safety, discrimination, and support can be complex and multifaceted.`},
+  {p:`For you as a 9-8-8 responder, this means that callers' and texters' experiences of safety, discrimination, and support can be complex and multifaceted.`},
   {p:`<strong>For example:</strong> a person may have received care that affirmed their queerness while also experiencing racism within the same service. They may have felt understood in one part of their identity and unseen in another.`, indent:true},
   {panel:{cls:'blue', p:`Cultural humility helps you stay open to that complexity and allow the person to tell you which parts of their experience matter most in the interaction at hand.`}}
 ]},
@@ -1034,10 +1034,11 @@ const SCREENS = [
 {sec:12, type:'prose', title:'How this activity works', blocks:[
   {p:`Cultural humility also includes taking seriously the social realities a person identifies as part of their distress.`, lede:true},
   {p:`When someone describes racism, discrimination, or another form of injustice, acknowledging what they are experiencing directly can help them feel heard and understood. Responses that minimize the experience, explain it away, or move quickly to solutions can add to the sense of dismissal the person may already be experiencing.`},
-  {p:`In this activity, you will review an example of what this dynamic can look like in conversation. You will:`},
+  {p:`In this activity, you will review three examples of what this dynamic can look like in conversation. In the first, discrimination sits alongside the person's distress. In the second and third, the situation itself is the crisis.`},
+  {p:`For each example, you will:`},
   {ol:[
-    `Read the following messages from a texter`,
-    `Choose the response that best recognizes what the texter is describing and stays with its impact`
+    `Read the exchange`,
+    `Choose the response that best recognizes what the person is describing and stays with its impact`
   ]}
 ]},
 
@@ -1092,7 +1093,7 @@ const SCREENS = [
    fb:`This response focuses on getting the caller medical attention, but explains away the experience they have just described. That may leave the caller feeling that the discrimination they experienced has been minimized.`},
   {k:'B', t:`"It sounds like the pain is the main thing right now, so let's focus on that and make sure you're okay. Have you thought about calling 811 to talk to a nurse, or trying a walk-in clinic instead of going back there?"`, correct:false,
    fb:`This response addresses the unresolved pain, which matters, but moves directly into problem-solving. The caller has also described an experience of being judged and treated differently, and acknowledging that experience is important before exploring what they want to do next.`},
-  {k:'C', t:`"You went in because the pain was so intense that you couldn't stand up, and you came away feeling judged instead of cared for. And you said this is something you've dealt with before? That sounds exhausting. How are you feeling about what happened now, and about getting help for the pain that's still there?"`, correct:true,
+  {k:'C', t:`"You went in because the pain was so intense you couldn't stand up, and you came away feeling judged instead of cared for. And you said this is something you've dealt with before? How are you feeling about getting help for the pain?"`, correct:true,
    fb:`This response acknowledges both parts of what the caller has shared: the experience of discrimination and the unresolved physical pain. It stays with the caller's own account and opens space to explore what support would feel acceptable and safe. Once the caller feels heard, the responder can continue exploring options for the ongoing pain in line with the standard operating procedures.`}
  ]},
 
@@ -1127,12 +1128,10 @@ const SCREENS = [
  title:`Offering culturally specific services`, line:`How to offer a resource without losing the connection.`},
 
 {sec:15, type:'prose', blocks:[
-  {p:`You just learned that cultural humility includes listening for the kinds of support that feel meaningful and relevant to the person on the other end. Sometimes, this may involve wanting support connected to their culture, language, community, or lived experience. This topic will cover how to navigate this situation in a collaborative, trauma-informed, and culturally humble way.`, lede:true},
-  {ul:[
-    `Offering culturally-specific resources can be part of collaborative practice, but the way you introduce them is important.`,
-    `They should be part of a broader approach that helps you stay connected to the person and ensure they retain choice over what happens next.`
-  ]},
-  {panel:{cls:'blue', p:`If the caller or texter identifies that a culturally-specific resource may be helpful for their situation, <a href="https://portal.988.ca/" target="_blank" rel="noopener">the 9-8-8 resource directory</a> includes a host of services that may meet their specific needs.`}}
+  {p:`You just learned that cultural humility includes listening for the kinds of support that feel meaningful and relevant to the person on the other end. Sometimes a person may want support connected to their culture, language, community, or lived experience. This topic will cover how to navigate this situation in a collaborative, trauma-informed, and culturally humble way.`, lede:true},
+  {p:`Offering culturally specific resources can be part of collaborative practice, but the way you introduce them is important.`},
+  {p:`They should be part of a broader approach that helps you stay connected to the person and ensure they retain choice over what happens next.`},
+  {panel:{cls:'blue', p:`If the caller or texter identifies that a culturally specific resource may be helpful for their situation, <a href="https://portal.988.ca/" target="_blank" rel="noopener">the 9-8-8 resource directory</a> includes a range of services that may meet their specific needs.`}}
 ]},
 
 {sec:15, type:'prose', title:'Offering resources collaboratively', blocks:[
@@ -1146,7 +1145,7 @@ const SCREENS = [
 ]},
 
 {sec:15, type:'prose', title:'The Hope for Wellness Helpline', blocks:[
-  {p:`One example of culturally-specific support is the <a href="https://www.hopeforwellness.ca/" target="_blank" rel="noopener">Hope for Wellness Helpline</a>, which provides support to Indigenous people across Canada, including First Nations, Inuit, and Métis people.`, lede:true},
+  {p:`One example of culturally specific support is the <a href="https://www.hopeforwellness.ca/" target="_blank" rel="noopener">Hope for Wellness Helpline</a>, which provides support to Indigenous people across Canada, including First Nations, Inuit, and Métis people.`, lede:true},
   {ul:[
     `Counsellors are available 24 hours a day, 7 days a week, by phone at 1-855-242-3310 and through online chat at hopeforwellness.ca.`,
     `Support is available in English and French.`,
